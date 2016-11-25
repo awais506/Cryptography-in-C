@@ -1,0 +1,22 @@
+Write, in a file called initials.c, a program that prompts a user for their name 
+(using GetString to obtain their name as a string)
+and then outputs their initials in uppercase with no spaces or periods, followed by a newline (\n) 
+and nothing more.
+You may assume that the user’s input will contain only letters (uppercase and/or lowercase) 
+plus single spaces between words.Folks like Joseph Gordon-Levitt, Conan O’Brien, and David J. Malan won’t be using your program.
+
+Example:
+Input: Zamyla Chan
+Output:ZC
+===========================================================
+Results of Check50
+~/workspace/pset2/ $ check50 2015.fall.pset2.initials initials.c
+:) initials.c exists
+:) initials.c compiles
+:) outputs "MB" for "Milo Banana"
+:) outputs "MB" for "milo banana"
+:) outputs "RTB" for "Robert Thomas Bowden"
+:) outputs "R" for "ROB"
+:) outputs "RTB" for "Robert thomas Bowden"
+https://sandbox.cs50.net/checks/6bfdcd0701144d178d966b2f729d8417
+===========================================================
